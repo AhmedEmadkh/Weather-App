@@ -1,0 +1,59 @@
+/* xs */
+@media all and (min-width: 0px) and (max-width: 600px) {
+}
+
+/* sm */
+@media all and (min-width: 601px) and (max-width: 768px) {
+}
+
+/* md */
+
+@media all and (min-width: 769px) and (max-width: 991px) {
+}
+
+/* lg */
+
+@media all and (min-width: 992px) and (max-width: 1200px) {
+}
+
+/* xl */
+
+@media all and (min-width: 1201px) {
+}
+/* Navbar */
+@media all and (min-width:0px ) and (max-width: 992px) {
+  .btn{
+    display: block;
+  }
+  .navbar-nav{
+    background: #262936;
+    list-style: none;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 10px;
+    
+  }
+  .navbar-nav li{
+    padding: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    position: relative;
+    right: 50%;
+    transform: translateX(50%);
+  }
+}
+@media all and (min-width:992px ){
+  .active {
+    color: #009ad8 !important;
+    border: 1px solid #009ad8;
+    width: 100px;
+    text-align: center;
+    border-radius: 999px;
+  }
+}
+/* Forecast show */
+@media all and (min-width: 0px) and (max-width: 992px) {
+  .forecast-container .forecast {
+    width: 100%;
+  }
+}
